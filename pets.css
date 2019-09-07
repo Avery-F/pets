@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans|Nunito&display=swap');
+
+body {
+  position: relative;
+  background-color: #F4F0EC;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header {
+  z-index: 1;
+  background-color: #1768AC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 4.375rem;
+  font-family: 'Bubblegum Sans', cursive;
+  line-height: 0;
+  letter-spacing: 0.0625rem;
+  padding: 0.25rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+#header-img {
+  width: 4.375rem;
+  height: 4.375rem;
+}
+
+#logo-title {
+  font-size: 3rem;
+  margin-left: 0.5rem;
+}
+
+#nav-bar {
+  font-size: 1.75rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  margin-right: 3rem;
+  list-style: none;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#hero-div {
+  position: relative;
+  padding-top: 4.875rem;
+}
+
+#hero-image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#intro {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2vw;
+}
+
+#title {
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 8vw;
+  line-height: 0;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#our-work {
+  padding-top: 5.5rem;
+}
+
+h3 {
+  margin: 2rem 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100%  / 4.5);
+}
+
+.icon {
+/*   width: 125px;
+  height: 125px; */
+  width: 7.8125rem;
+  height: 7.8125rem;
+}
+
+#date {
+/*   width: 175px;
+  height: 175px; */
+  width: 10.9375rem;
+  height: 10.9375rem;
+}
+
+.benefits > p {
+  width: 90%;
+}
+
+#in-action {
+  width: 75%;
+  margin: auto;
+  margin-top: -2rem;
+  padding-top: 5.5rem;
+}
+
+#video-wrap {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+}
+
+#video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#pricing {
+  padding-top: 5.5rem;
+}
+
+.listing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 4.5);
+  border: 0.125rem solid #000;
+}
+
+.animal {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.listing h2 {
+  margin: 1rem;
+}
+
+.listing ul {
+  margin: 0;
+}
+
+.listing li {
+  float: left;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  text-align: left;
+  width: 90%;
+  margin-bottom: 0.75rem;
+}
+
+.last {
+  padding-bottom: 1rem;
+}
+
+.btn {
+  background-color: #2541B2;
+  color: #FFF;
+  font-size: 1.125rem;
+  width: 10rem;
+  height: 3rem;
+  margin-top: auto;
+  margin-bottom: 1.25rem;
+  border: 0 solid;
+  border-radius: 0.25rem;
+}
+
+.btn:hover {
+  background-color: #197C5D;
+  transition: background-color 1s;
+}
+
+#pricing p {
+  font-size: 1rem;
+}
+
+#newsletter h3 {
+  margin: 1rem;
+  padding-top: 5rem;
+}
+
+input {
+  font-family: 'Nunito', sans-serif;
+  font-size: .75rem;
+  width: 25%;
+  height: 2rem;
+  vertical-align: middle;
+  padding-left: 0.5rem;
+  border: 0.0625rem solid #CCC;
+  border-radius: 0.25rem;
+}
+
+#submit {
+  background-color: #2541B2;
+  color: #FFF;
+  font-size: 1.125rem;
+  width: auto;
+  height: 2.25rem;
+  padding: 0 1.5rem;
+  border: 0 solid;
+  border-radius: 0.25rem;
+}
+
+#submit:hover {
+  background-color: #197C5D;
+  transition: background-color 1s;
+}
+
+footer{
+  background-color: #093A3E;
+  color: #F4F0EC;
+  font-size: 1rem;
+  width: 100%;
+  margin-top: 5rem;
+  margin-left: -1rem;
+  padding-bottom: 1rem;
+  padding: 1rem;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  margin-left: -0.6rem;
+}
+
+footer li {
+  list-style: none;
+  margin: 0.125rem 2rem 1rem 0;
+  padding: 0 0.5rem;
+}
+
+footer a {
+  color: #F4F0EC;
+}
+
+@media (max-width: 90rem) {
+  main {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .listing li {
+    margin-left: -0.25rem;
+  }
+}
+
+@media (max-width: 64rem) {
+  body {
+    font-size: 1.125rem;
+  }
+  nav li {
+    margin: 0 1.5rem;
+  }
+  main {
+    width: 99%;
+  }
+  .icon {
+/*   width: 100px;
+  height: 100px; */
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+  #date {
+/*   width: 150px;
+  height: 150px; */
+    width: 9.375rem;
+    height: 9.375rem;
+  }
+  #in-action {
+    width: 90%;
+  }
+  #pricing .box {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -1rem;
+  }
+  .listing {
+    width: calc(100% / 2.25);
+    margin: 1rem;
+  }
+  .listing li {
+    margin-left: 0.5rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  header {
+    min-height: 3.75rem;
+    padding: 0.125rem;
+  }
+  #header-img {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+  #logo-title {
+    font-size: 2.5rem;
+  }
+  #nav-bar {
+    font-size: 1.5rem;
+  }
+  nav li {
+    margin: 0 1rem;
+  }
+  #hero-div {
+  padding-top: 4rem;
+}
+  #our-work, #in-action, #pricing {
+    padding-top: 4.25rem;
+  }
+  #in-action {
+    width: 95%;
+  }
+  .listing {
+    margin: 0.75rem;
+  }
+  .listing li {
+    margin-left: 0;
+  }
+  input {
+    width: 45%;
+    text-align: center;
+    padding: 0;
+  }
+  #submit {
+    display: block;
+    width: 45%;
+    margin: auto;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 40rem) {
+  #logo {
+    width: 30%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #logo-title {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+  }
+  #header-img {
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-bottom: -0.5rem;
+  }
+  #nav-bar {
+    width: 70%;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0;
+  }
+  nav li {
+    margin: .5rem;
+    margin-left: -1rem;
+    padding: .5rem;
+  }
+  #hero-div {
+    padding-top: 6.25rem;
+  }
+  #intro {
+    top: 45%;
+    font-size: 1rem;
+  }
+  #our-work > h2 {
+    line-height: 1.2;
+    width: 70%;
+    margin: auto;
+    padding-top: 2.75rem;
+  }
+  #our-work > h3 {
+    line-height: 1.2;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .icon {
+    margin: 1rem;
+    margin-left: 1.5rem;
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+  .benefits p{
+    text-align: left;
+    margin: 0 1rem;
+  }
+  #date {
+    float: left;
+    width: 6.5rem;
+    height: 6.5rem;
+    margin: -1rem 1rem 1rem 1.125rem;
+  }
+  #date + p {
+    display: flex;
+    margin-top: 2rem;
+  }
+  #in-action {
+    width: 95%;
+  }
+  #in-action > h2 {
+    line-height: 1.2;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 0.75rem;
+    padding-top: 2.75rem;
+  }
+  #pricing > h2 {
+    margin-bottom: 0.85rem;
+    padding-top: 1.2rem;
+  }
+  .listing {
+    width: 80%;
+  }
+  .listing h2 {
+    margin: 0.75rem;
+  }
+  .listing li {
+    float: none;
+    margin: 0 1.25rem 0.75rem 0.5rem;
+  }
+  .btn {
+    width: 10rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  #pricing p, #newsletter p {
+    width: 80%;
+    margin: auto;
+  }
+  #newsletter > h3 {
+    width: 75%;
+    margin: auto;
+  }
+  input {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 25.875rem) {
+  body {
+    font-size: 1rem;
+  }
+  #intro {
+    top: 49%;
+  }
+  #intro h2 {
+    font-size: 1.25rem;
+  }
+  #our-work > h2 {
+    width: 80%;
+  }
+  #in-action > h2 {
+    width: 80%;
+  }
+  #pricing > h2 {
+    padding-top: 1.3rem;
+  }
+  .listing {
+    width: 90%;
+  }
+}
